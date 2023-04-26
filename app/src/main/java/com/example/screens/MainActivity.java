@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openSecondActivity(){
         Intent intent = new Intent(this, secondActivity.class);
+        intent.putExtra("name","JAG GILLAR HATTAR");
         startActivity(intent);
     }
 }
