@@ -5,6 +5,7 @@ I denna uppgift så användes Extra för att skicka information mellan aktivitet
 Från aktivitet 1 skickades en mening som sedan skrevs ut i aktivitet 2.
 Detta triggades genom en knapp som fans på activity_main
 Funktionen för att skicka informationen sattes in i MainActivity.java och funktionen för att ta emot informationen sattes i secondActivity.java
+Textviewn i activity_second är tom när appen startar. den får först innehål när användaren trycker på knappen i activity_main
 
 Send on button press i MainActivity.java
 ```
