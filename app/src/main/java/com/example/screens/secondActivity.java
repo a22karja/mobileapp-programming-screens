@@ -14,10 +14,9 @@ public class secondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        // on below line we are initializing variables with ids.
+        //Get textview
         TextView name = findViewById(R.id.name);
-
-        // on below line we are setting our message to our text view.
+        //Set in information in textview
         name.setText(getIntent().getStringExtra("name"));
     }
 }
